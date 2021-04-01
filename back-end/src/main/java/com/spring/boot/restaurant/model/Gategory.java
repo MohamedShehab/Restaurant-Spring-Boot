@@ -1,7 +1,5 @@
 package com.spring.boot.restaurant.model;
 
-public class Gategory {
+public class Gategory extends CategoryOrder{
 
-    private Long id;
-    private String categoryName;
 }

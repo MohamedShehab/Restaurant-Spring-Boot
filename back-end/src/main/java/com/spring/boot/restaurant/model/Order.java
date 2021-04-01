@@ -1,9 +1,7 @@
 package com.spring.boot.restaurant.model;
 
-public class Order {
+public class Order extends CategoryOrder {
 
-    private Long id;
-    private String nameOrder;
     private String img;
     private int price;
     private String description;
