@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Lob;
 import javax.persistence.Table;
 
 @Data
@@ -17,8 +18,11 @@ public class Order extends CategoryOrder {
 
     @Column(name = "image")
     private String img;
+
     @Column(name = "price")
     private int price;
+
     @Column(name = "description")
+    @Lob
     private String description;
 }
